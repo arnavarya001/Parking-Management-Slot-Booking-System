@@ -173,6 +173,16 @@ npm run dev
 
 ---
 
+### 🌐 Deploying on Vercel
+1. Import the repository into **Vercel**.
+2. Keep the **Root Directory** as `./` (or default).
+3. Under **Environment Variables**, add:
+   - `MONGO_URI`: your MongoDB Atlas connection string
+   - `JWT_SECRET`: your secret key (e.g. `car_parking_secret_key_2026`)
+4. Click **Deploy**. Both the Vite frontend and Express serverless API will be deployed together on your Vercel URL!
+
+---
+
 ## 🔑 Default Demo Credentials
 
 If you seeded the database with `node server/seed.js`, you can immediately log in with:

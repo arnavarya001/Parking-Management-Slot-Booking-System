@@ -5,9 +5,18 @@
   "description": "PS 08 — Parking Management & Slot Booking System",
   "scripts": {
     "dev": "npm --prefix client run dev",
+    "build": "cd client && npm install && npm run build && mkdir -p ../public && cp -r dist/* ../public/",
     "client": "npm --prefix client run dev",
     "server": "npm --prefix server start",
-    "start": "npm --prefix server start"
+    "start": "node server/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.5"
   },
   "keywords": [],
   "author": "",
