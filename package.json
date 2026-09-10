@@ -1,0 +1,15 @@
+{
+  "name": "car-parking-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PS 08 — Parking Management & Slot Booking System",
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server start",
+    "start": "npm --prefix server start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
