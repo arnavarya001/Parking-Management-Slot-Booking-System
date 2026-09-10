@@ -1,4 +1,4 @@
-# 🚗 PS 08 — Parking Management & Slot Booking System
+Parking Management & Slot Booking System
 
 A full-stack web application designed for urban mobility and facility management. It allows users to browse and book available parking slots based on vehicle type and duration, while providing administrators with complete management over parking slots, zones, bookings, and live occupancy analytics.
 
